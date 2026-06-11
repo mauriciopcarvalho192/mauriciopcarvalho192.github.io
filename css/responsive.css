@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+
+    .topo {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+
+    .menu-categorias ul {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .detalhe-produto {
+        flex-direction: column;
+    }
+
+    .tabela-carrinho {
+        display: block;
+        overflow-x: auto;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .marca h1 {
+        font-size: 22px;
+    }
+
+    .vitrine {
+        grid-template-columns: 1fr;
+    }
+
+}

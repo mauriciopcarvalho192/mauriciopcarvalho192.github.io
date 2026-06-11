@@ -1,0 +1,170 @@
+.detalhe-produto {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+
+    margin-bottom: 40px;
+}
+
+/* IMAGEM */
+
+.imagem-produto {
+    flex: 2;
+}
+
+.imagem-produto img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid var(--red);
+}
+
+/* INFORMAÇÕES */
+
+.info-produto {
+    flex: 1;
+}
+
+.info-produto h2 {
+    color: var(--red);
+    margin-bottom: 15px;
+}
+
+.preco {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--red);
+
+    margin-bottom: 20px;
+}
+
+.info-produto p {
+    margin-bottom: 15px;
+}
+
+.info-produto h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* ÁUDIO */
+
+.info-produto audio {
+    width: 100%;
+}
+
+/* VÍDEO */
+
+.info-produto video {
+    width: 100%;
+    max-height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+    border: 1px solid var(--red);
+}
+
+/* TABELA */
+
+.dados-produto {
+    margin-top: 30px;
+}
+
+.dados-produto h3 {
+    color: var(--red);
+    margin-bottom: 15px;
+}
+
+.dados-produto table {
+    width: 100%;
+    border-collapse: collapse;
+
+    background-color: var(--card);
+}
+
+.dados-produto th,
+.dados-produto td {
+    border: 1px solid var(--red);
+
+    padding: 12px;
+    text-align: left;
+}
+
+.dados-produto th {
+    width: 200px;
+    background-color: rgba(154, 0, 2, 0.1);
+}
+
+/* voltar */
+
+.voltar {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.voltar a {
+    color: var(--red);
+    font-weight: bold;
+}
+
+.voltar a:hover {
+    text-decoration: underline;
+}
+
+/* botao carrinho */
+
+.btn-carrinho {
+    display: inline-block;
+
+    margin-bottom: 20px;
+    padding: 10px 20px;
+
+    background-color: var(--red);
+    color: white;
+    
+    border-radius: 6px;
+
+    font-weight: bold;
+}
+
+.btn-carrinho:hover {
+    opacity: 0.85;
+}
+
+
+/*XXXXXXXXXXXX
+   CARRINHO
+XXXXXXXXXXXXXX */
+
+.tabela-carrinho {
+    width: 100%;
+    border-collapse: collapse;
+
+    margin-top: 20px;
+    background-color: var(--card);
+}
+
+.tabela-carrinho th,
+.tabela-carrinho td {
+    border: 1px solid var(--red);
+    padding: 12px;
+    text-align: center;
+}
+
+.tabela-carrinho th {
+    background-color: rgba(154, 0, 2, 0.1);
+}
+
+.total-geral {
+    margin-top: 25px;
+    text-align: right;
+}
+
+.total-geral h3 {
+    color: var(--red);
+}
+
+.total-geral p {
+    font-size: 24px;
+    font-weight: bold;
+}
